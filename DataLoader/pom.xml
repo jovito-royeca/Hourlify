@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.jovitoroyeca</groupId>
-    <artifactId>DataSource</artifactId>
+    <groupId>com.hourlify</groupId>
+    <artifactId>DataLoader</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
@@ -21,7 +21,7 @@
             <url>http://google-api-client-libraries.appspot.com/mavenrepo</url>
         </repository>
     </repositories>
-
+    
     <dependencies>
         <!-- google -->
         <dependency>
@@ -47,6 +47,6 @@
             <artifactId>mariadb-java-client</artifactId>
             <version>1.2.0</version>
         </dependency>
-
-  </dependencies>
+    </dependencies>
+    
 </project>

@@ -44,3 +44,4 @@ fastlane/screenshots/en-US/*.png
 *.ipa
 *.app.dSYM.zip
 Preview.html
+/DataLoader/target/
